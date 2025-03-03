@@ -1,5 +1,5 @@
 import cv2
-url="https://192.168.110.154:8080/video"
+url="https://address/video"
 cap = cv2.VideoCapture(url)
 if not cap.isOpened():
     print("Error: Could not open camera stream.")
